@@ -1,4 +1,4 @@
-import plotly.express as px
+from plotly import express as px
 import streamlit as st
 
 def stCondBoxPlot(df, xCol, yCol, zCol, title):
